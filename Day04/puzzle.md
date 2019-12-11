@@ -17,8 +17,6 @@ Other than the range rule, the following are true:
 
 How many different passwords within the range given in your puzzle input meet these criteria?
 
-Your puzzle answer was 1716.
-
 The first half of this puzzle is complete! It provides one gold star: *
 --- Part Two ---
 

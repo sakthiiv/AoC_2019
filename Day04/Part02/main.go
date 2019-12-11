@@ -25,7 +25,6 @@ func EvaluateCriteria(value int) bool {
 
 func EvaluateLargerGroup(value int) bool {
 	tempValue := strconv.Itoa(value)
-	// temp, counter := -1, 0
 	state := false
 	valueMap := make(map[string]int)
 	for i := 0; i < len(tempValue); i++ {
@@ -37,7 +36,6 @@ func EvaluateLargerGroup(value int) bool {
 			state = true
 		}
 	}
-	// return counter != 3 && counter != 5
 	return state
 }
 
